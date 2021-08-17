@@ -4,13 +4,13 @@
 
 
 int main() {
-    int datasetSize = 100000;
+    int datasetSize = 10;
     int normalRange = 100000;
-    int fewUniqueRange = 100;
+    int fewUniqueRange = 10;
     int randomData[datasetSize], fewUnique[datasetSize];
     for (int i = 0; i < datasetSize; ++i) {
-        randomData[i] = rand() % normalRange;
-        fewUnique[i] = rand() % fewUniqueRange;
+        randomData[i] = std::rand() % normalRange;
+        fewUnique[i] = std::rand() % fewUniqueRange;
         //        std::cout << fewUnique[i] << " " << randomData[i] << std::endl;
     }
 //    InsertionSort insertionSort;
