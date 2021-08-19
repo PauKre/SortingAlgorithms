@@ -9,7 +9,7 @@ public:
 
     void sort(int *data, int data_length) override;
 
-    void sortRecursively(int * data, int start, int end);
+    void sortRecursively(int * data,int length, int start, int end);
 };
 
 

@@ -9,9 +9,10 @@ public:
 
     double measureSort(int data[], int data_length, bool check);
 
+    void printData(int *data, int length);
 private:
-    void checkData(int data[], int data_length);
 
+    void checkData(int data[], int data_length);
 };
 
 

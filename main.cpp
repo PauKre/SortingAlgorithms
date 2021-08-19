@@ -4,7 +4,7 @@
 
 
 int main() {
-    int datasetSize = 10;
+    int datasetSize = 10000;
     int normalRange = 100000;
     int fewUniqueRange = 10;
     int randomData[datasetSize], fewUnique[datasetSize];
